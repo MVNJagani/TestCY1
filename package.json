@@ -1,0 +1,22 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "FirstAutomationCriptinCyPress",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "test": "node_modules\\.bin\\cypress run",
+    "runHeadless": "./node_modules/.bin/cypress run --headless",
+    "runtests" : "npm run test --config pageLoadTimeout=100000"
+    
+  },
+  "author": "Vedant Jagani",
+  "license": "ISC",
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^1.8.0",
+    "cypress": "^8.1.0"
+  },
+  "dependencies": {
+    "typescript": "^4.3.5"
+  }
+}
