@@ -13,6 +13,8 @@
     }
   },
   "scripts": {
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:firefox": "cypress run --browser firefox",
     "cypress:open": "cypress open",
     "test": "node_modules\\.bin\\cypress run",
     "runHeadless": "./node_modules/.bin/cypress run --headless",
@@ -29,7 +31,8 @@
     "cucumber-html-reporter": "^5.5.0",
     "cypress": "^8.3.0",
     "cypress-cucumber-preprocessor": "^4.2.0",
-    "cypress-file-upload": "^5.0.8"
+    "cypress-file-upload": "^5.0.8",
+    "mocha-multi-reporters": "^1.5.1"
   },
   "dependencies": {
     "typescript": "^4.3.5"
