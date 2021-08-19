@@ -1,0 +1,63 @@
+[
+  {
+    "description": "    I want to login as system admin",
+    "keyword": "Feature",
+    "name": "Salesforce Login",
+    "line": 1,
+    "id": "salesforce-login",
+    "tags": [],
+    "uri": "LoginPage.feature",
+    "elements": [
+      {
+        "id": "salesforce-login;login-as-system-admin",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Login as System Admin",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Open the Salesforce web page",
+            "result": {
+              "status": "passed",
+              "duration": 1846000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "Enter user name",
+            "result": {
+              "status": "passed",
+              "duration": 633000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Enter password",
+            "result": {
+              "status": "passed",
+              "duration": 435000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "click on the login button",
+            "result": {
+              "status": "passed",
+              "duration": 1637000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

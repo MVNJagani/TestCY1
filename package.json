@@ -1,23 +1,37 @@
 {
   "name": "cypressautomation",
   "version": "1.0.0",
-  "description": "FirstAutomationCriptinCyPress",
+  "description": "FirstAutomationSriptinCyPress",
   "main": "index.js",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
   "scripts": {
     "cypress:open": "cypress open",
     "test": "node_modules\\.bin\\cypress run",
     "runHeadless": "./node_modules/.bin/cypress run --headless",
-    "runtests" : "npm run test --config pageLoadTimeout=100000"
-    
+    "runtests": "npm run test --config pageLoadTimeout=100000"
   },
+  "keywords": [
+    "Cypress",
+    "cucumber"
+  ],
   "author": "Vedant Jagani",
   "license": "ISC",
   "devDependencies": {
     "@4tw/cypress-drag-drop": "^1.8.0",
-    "cypress": "^8.1.0"
+    "cucumber-html-reporter": "^5.5.0",
+    "cypress": "^8.3.0",
+    "cypress-cucumber-preprocessor": "^4.2.0",
+    "cypress-file-upload": "^5.0.8"
   },
   "dependencies": {
     "typescript": "^4.3.5"
   }
-    
 }
