@@ -3,6 +3,7 @@
     "chromeWebSecurity": false,
     "baseUrl": "https://rv--test.my.salesforce.com/",
     "pageLoadTimeout": 120000,
+    "projectId": "3z7s7d",
 
     "reporter": "mochawesome",
     "reporterOpations":{
@@ -16,3 +17,5 @@
 
     "testFiles": "**/*.feature"
 }
+
+
