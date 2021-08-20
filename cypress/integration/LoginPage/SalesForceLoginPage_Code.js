@@ -4,6 +4,7 @@ class LoginPage{
     static salesforceLoginPage(){
 
         cy.visit('https://rv--test.my.salesforce.com/');
+        
     }
     
     static enterUserID(){

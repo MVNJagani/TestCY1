@@ -1,9 +1,11 @@
 /// <reference types="Cypress" />
 
 import {Given, When, Then, And } from 'cypress-cucumber-preprocessor/steps'
-import LoginPage from './SalesForceLoginPage_Code'
+import HomePage from './HomePage_Code'
+
 
 Given('Clink on the Home tab',()=>{
+    HomePage.clickOnTheHomeTab();
 
 })
 
@@ -11,14 +13,14 @@ When('Click on the New button',()=>{
 
 })
 
-Then('',()=>{
+Then('Click on the Select a record type radio button',()=>{
 
 })
 
-And('',()=>{
+And('Click on the Next button',()=>{
 
 })
 
-Then('', ()=>{
-    
+Then('Populate the Description field', ()=>{
+
 })

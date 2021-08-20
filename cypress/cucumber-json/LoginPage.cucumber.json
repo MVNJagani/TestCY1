@@ -23,7 +23,7 @@
             "name": "Open the Salesforce web page",
             "result": {
               "status": "passed",
-              "duration": 1177000000
+              "duration": 881000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "Enter user name",
             "result": {
               "status": "passed",
-              "duration": 668000000
+              "duration": 582000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "Enter password",
             "result": {
               "status": "passed",
-              "duration": 424000000
+              "duration": 500000000
             }
           },
           {
@@ -53,7 +53,7 @@
             "name": "click on the login button",
             "result": {
               "status": "passed",
-              "duration": 1204000000
+              "duration": 2167000000
             }
           }
         ]
