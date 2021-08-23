@@ -18,6 +18,9 @@ class LoginPage{
     static clickOnLoginBtn(){
         cy.get('#Login').click()
     }
+    static clickOnWaffleAppIcon(){
+        cy.get('class[class=slds-icon-waffle]').should('be.visible').should('be.enabled').click()
+    }
 }
 
 export default LoginPage;

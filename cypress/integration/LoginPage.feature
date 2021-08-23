@@ -8,3 +8,4 @@ Feature: Salesforce Login
         When  Enter user name
         Then  Enter password
         And   click on the login button
+        Then click on waffle app icon

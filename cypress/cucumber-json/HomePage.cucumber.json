@@ -23,8 +23,8 @@
             "name": "Clink on the Home tab",
             "result": {
               "status": "failed",
-              "duration": 4081000000,
-              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.dndItem[title=\"Home\"]`, but never found it.\n    at Function.clickOnTheHomeTab (https://rv--test.my.salesforce.com/__cypress/tests?p=cypress/integration/HomePage.feature:57:10)\n    at Context.eval (https://rv--test.my.salesforce.com/__cypress/tests?p=cypress/integration/HomePage.feature:98:29)\n    at Context.resolveAndRunStepDefinition (https://rv--test.my.salesforce.com/__cypress/tests?p=cypress/integration/HomePage.feature:10573:29)\n    at Context.eval (https://rv--test.my.salesforce.com/__cypress/tests?p=cypress/integration/HomePage.feature:9894:35)"
+              "duration": 4060000000,
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `.dndItem[title=\"Home\"]`, but never found it.\n    at Function.clickOnTheHomeTab (https://rv--test.my.salesforce.com/__cypress/tests?p=cypress/integration/HomePage.feature:57:10)\n    at Context.eval (https://rv--test.my.salesforce.com/__cypress/tests?p=cypress/integration/HomePage.feature:98:29)\n    at Context.resolveAndRunStepDefinition (https://rv--test.my.salesforce.com/__cypress/tests?p=cypress/integration/HomePage.feature:10581:29)\n    at Context.eval (https://rv--test.my.salesforce.com/__cypress/tests?p=cypress/integration/HomePage.feature:9902:35)"
             }
           },
           {

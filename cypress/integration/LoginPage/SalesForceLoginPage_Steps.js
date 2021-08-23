@@ -21,3 +21,9 @@ And ('click on the login button',()=>{
     LoginPage.clickOnLoginBtn();
     
 })
+
+Then('click on waffle app icon',()=>{
+    LoginPage.clickOnWaffleAppIcon();
+    
+
+})
