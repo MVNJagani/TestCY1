@@ -1,0 +1,7 @@
+
+Reports: 
+* https://www.youtube.com/watch?v=gNl8bnOyr8g
+* https://kailash-pathak.medium.com/generate-cucumber-html-report-in-cypress-3691d596ef19
+
+
+

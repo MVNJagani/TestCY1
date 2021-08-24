@@ -5,7 +5,6 @@ Feature: Salesforce Login
 
     Scenario: Login as System Admin
         Given Open the Salesforce web page
-        When  Enter user name
-        Then  Enter password
-        And   click on the login button
-        Then click on waffle app icon
+        When Enter user name
+        Then Enter password
+        And  click on the login button

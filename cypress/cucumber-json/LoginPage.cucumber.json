@@ -22,9 +22,8 @@
             "line": 7,
             "name": "Open the Salesforce web page",
             "result": {
-              "status": "failed",
-              "duration": 19802000000,
-              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\nhttps://rv--test.my.salesforce.com/\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: read ETIMEDOUT\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at https://rv--test.my.salesforce.com/__cypress/runner/cypress_runner.js:144037:23\n    at visitFailedByErr (https://rv--test.my.salesforce.com/__cypress/runner/cypress_runner.js:143396:12)\n    at https://rv--test.my.salesforce.com/__cypress/runner/cypress_runner.js:144036:11\nFrom previous event:\n    at go (https://rv--test.my.salesforce.com/__cypress/runner/cypress_runner.js:143999:17)\n    at https://rv--test.my.salesforce.com/__cypress/runner/cypress_runner.js:144065:20\nFrom previous event:\n    at visit (https://rv--test.my.salesforce.com/__cypress/runner/cypress_runner.js:144063:38)\n    at Context.visit (https://rv--test.my.salesforce.com/__cypress/runner/cypress_runner.js:144072:14)\nFrom Your Spec Code:\n    at Function.salesforceLoginPage (https://rv--test.my.salesforce.com/__cypress/tests?p=cypress/integration/LoginPage.feature:57:10)\n    at Context.eval (https://rv--test.my.salesforce.com/__cypress/tests?p=cypress/integration/LoginPage.feature:93:40)\n    at Context.resolveAndRunStepDefinition (https://rv--test.my.salesforce.com/__cypress/tests?p=cypress/integration/LoginPage.feature:10573:29)\n    at Context.eval (https://rv--test.my.salesforce.com/__cypress/tests?p=cypress/integration/LoginPage.feature:9894:35)\n\nFrom Node.js Internals:\n  Error: read ETIMEDOUT\n      at TLSWrap.onStreamRead (internal/stream_base_commons.js:209:20)\n  "
+              "status": "passed",
+              "duration": 1749000000
             }
           },
           {
@@ -33,7 +32,8 @@
             "line": 8,
             "name": "Enter user name",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 570000000
             }
           },
           {
@@ -42,7 +42,8 @@
             "line": 9,
             "name": "Enter password",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 435000000
             }
           },
           {
@@ -51,7 +52,8 @@
             "line": 10,
             "name": "click on the login button",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 1774000000
             }
           }
         ]

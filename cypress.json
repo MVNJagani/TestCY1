@@ -2,19 +2,25 @@
 {
     "chromeWebSecurity": false,
     "baseUrl": "https://rv--test.my.salesforce.com/",
-    "pageLoadTimeout": 120000,
-    "projectId": "3z7s7d",
+    "defaultCommandTimeout": 10000,
+    "execTimeout": 60000,
+    "pageLoadTimeout": 60000,
+    "requestTimeout": 15000,
+    "responseTimeout": 15000,
 
     "reporter": "mochawesome",
-    "reporterOpations":{
+
+    "reporterOptions":{
         "reportDir": "cypress/reports",
-        "reportFilename": "testresults",
+        "reportFilename": "report",
         "overwrite": false,
         "html":true,
         "json":true,
-        "charts":true
+        "charts":true,
+        "timestamp": "mmddyyyy_HHMMss"
     },
-
+    "video": true, 
+    "projectId": "3z7s7d",
     "testFiles": "**/*.feature"
 }
 
