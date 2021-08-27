@@ -21,3 +21,11 @@ And ('click on the login button',()=>{
     LoginPage.clickOnLoginBtn();
     
 })
+Then ('click on the user image',()=>{
+    LoginPage.clickOnUserImage
+})
+
+And ('click on Logout',()=>{
+    LoginPage.clickLogout();
+    
+})

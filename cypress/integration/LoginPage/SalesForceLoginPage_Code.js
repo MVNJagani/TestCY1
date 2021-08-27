@@ -15,6 +15,15 @@ class LoginPage{
     }
     static clickOnLoginBtn(){
         cy.get('#Login').click()
+        cy.wait(50000)
+    }
+    static clickOnUserImage(){
+      cy.get('.uiImage').find('[title=User]').trigger('mouseover').click({ force: true});
+      cy.wait(50000)
+    }
+
+    static clickLogout(){
+        cy.get('.profile-card-toplinks').find('a').first.click()
     }
 }
 

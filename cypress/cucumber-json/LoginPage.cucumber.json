@@ -23,7 +23,7 @@
             "name": "Open the Salesforce web page",
             "result": {
               "status": "passed",
-              "duration": 1569000000
+              "duration": 2092000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "Enter user name",
             "result": {
               "status": "passed",
-              "duration": 627000000
+              "duration": 552000000
             }
           },
           {
@@ -43,7 +43,7 @@
             "name": "Enter password",
             "result": {
               "status": "passed",
-              "duration": 565000000
+              "duration": 600000000
             }
           },
           {
@@ -53,7 +53,27 @@
             "name": "click on the login button",
             "result": {
               "status": "passed",
-              "duration": 1383000000
+              "duration": 2198000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "click on the user image",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "click the Logout link",
+            "result": {
+              "status": "undefined",
+              "duration": 23000000
             }
           }
         ]
