@@ -9,6 +9,7 @@ class LoginPage{
         cy.get('#username').type('vedant.jagani@campingworld.com.test')
 
     }
+    
     static enterPassword(){
         cy.get('#password').type('Welcome2019*')
 
