@@ -1,4 +1,4 @@
-name: CI
+name: Salesforce Login Page CI
 
 on:
   push:
